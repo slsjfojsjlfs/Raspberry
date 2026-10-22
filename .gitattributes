@@ -1,0 +1,16 @@
+* text=auto
+
+# Files executed on Raspberry Pi must keep Unix line endings.
+*.sh text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+
+# Documentation is rendered consistently across platforms.
+*.md text eol=lf
+
+# Native Windows launchers and PowerShell scripts.
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Debian packages are binary artifacts.
+*.deb binary

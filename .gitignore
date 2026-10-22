@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local SSH/runtime state
+.state/
+.ssh/
+*.log
+
+# Captured and generated data
+/data/Image/**
+*.raw
+*.npy
+/Result/
+/results/
+
+# Production-only algorithm assets
+**/weights/
+**/config.json
+**/capture_manifest.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*

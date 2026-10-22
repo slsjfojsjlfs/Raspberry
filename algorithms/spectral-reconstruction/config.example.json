@@ -1,0 +1,14 @@
+{
+  "input_dir": "/home/r/Raspberry/Image/image_temp_result",
+  "manifest": "/home/r/Raspberry/Algorithm/capture_manifest.json",
+  "weights": "/home/r/Raspberry/Algorithm/weights/spectral_recon_v14_quadratic_rank8_weights.npz",
+  "cpp_weights": "/home/r/Raspberry/Algorithm/weights/spectral_recon_v14_quadratic_rank8_cpp.bin",
+  "result_root": "/home/r/Raspberry/Result",
+  "chunk_size": 4096,
+  "normalization": {
+    "mode": "scale",
+    "offset": 0.0,
+    "scale": 255.0,
+    "clip": true
+  }
+}
